@@ -1,0 +1,4 @@
+
+1. Cache
+2. RAM 
+3. ROM 

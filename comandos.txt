@@ -1,0 +1,36 @@
+git init 20230605-GrabielaIsabelCastroArmijos
+cd 20230605-GrabielaIsabelCastroArmijos
+git remote add origin https://github.com/Grabicastro/20230605-GrabielaIsabelCastroArmijos
+
+touch comandos.txt
+touch main.js
+touch index.html
+
+git status
+git add comandos.txt main.js index.html
+git commit -m "commit 01 de GrabielaCastro"
+git push origin master
+
+git branch feature
+git checkout feature
+mkdir Hardware
+mkdir Software
+mkdir SeguridadInformatica
+ls
+
+touch Hardware/resumen.txt
+touch Software/resumen.txt
+touch SeguridadInformatica/resumen.txt
+
+ls Software
+ls SeguridadInformatica
+ls Hardware
+
+
+git status
+git add .
+git push origin feature
+mv main.js resumenHardware.txt
+mv index.html resumenSoftware.txt
+ls
+
